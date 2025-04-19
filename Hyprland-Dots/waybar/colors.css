@@ -1,0 +1,34 @@
+/* ~/.config/waybar/colors.css */
+/* Kanagawa Wave Color Palette */
+@define-color sumi-ink-0    #16161D;  /* Dark background */
+@define-color sumi-ink-1    #1F1F28;  /* Slightly lighter bg */
+@define-color sumi-ink-2    #2A2A37;  /* Secondary bg */
+@define-color sumi-ink-3    #363646;  /* Borders/accents */
+
+@define-color fuji-white    #DCD7BA;  /* Primary text */
+@define-color fuji-gray     #727169;  /* Secondary text */
+@define-color old-white     #C8C093;  /* Alternate text */
+
+@define-color wave-blue     #7FB4CA;  /* Primary accent */
+@define-color wave-blue-2   #658594;  /* Darker blue */
+@define-color wave-aqua     #6A9589;  /* Teal accent */
+
+@define-color dragon-blue   #658594;  
+@define-color dragon-teal   #6A9589;
+
+@define-color carp-yellow   #E6C384;  /* Yellow accent */
+@define-color sakura-pink   #D27E99;  /* Pink accent */
+@define-color peach-red     #FF5D62;  /* Error/alert color */
+@define-color surimi-orange #FFA066;  /* Warning color */
+@define-color spring-green  #98BB6C;  /* Success color */
+
+/* Semantic colors for Waybar modules */
+@define-color background   @sumi-ink-0;
+@define-color background-alt @sumi-ink-1;
+@define-color foreground   @fuji-white;
+@define-color primary      @wave-blue;
+@define-color secondary    @carp-yellow;
+@define-color alert        @peach-red;
+@define-color warning      @surimi-orange;
+@define-color success      @spring-green;
+@define-color disabled     @fuji-gray;

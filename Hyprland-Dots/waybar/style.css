@@ -1,0 +1,255 @@
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 16px;
+  min-height: 28px;
+  border: none;
+}
+
+@import "theme.css";
+
+/* === Main Background === */
+
+window#waybar {
+  background: @main-bg;
+  padding: 0 0 0 0;
+}
+
+/* === Tooltip === */
+
+tooltip {
+  background: @secondary-bg;
+  border: solid;
+  border-width: 1.5px;
+  border-radius: 4px;
+  border-color: @main-br;
+}
+tooltip label {
+  color: @main-fg;
+  font-weight: normal;
+  margin: -1.5px 3px;
+}
+
+/* === Workspace Buttons === */
+
+#workspaces button {
+  color: @module-fg;
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 5px 11px 5px 11px;
+  transition: none;
+}
+#workspaces button:hover {
+  color: @hover-fg;
+  background: @hover-bg;
+  text-shadow: none;
+  box-shadow: none;
+}
+#workspaces button.active {
+  background: @lavander;
+}
+
+/* === General === */
+
+#workspaces,
+#custom-cpuinfo,
+#memory,
+/* #cpu, */
+#custom-cpu,
+#idle_inhibitor,
+#clock,
+#custom-wifi,
+#bluetooth,
+#custom-media,
+#pulseaudio,
+/* #backlight, */
+#battery,
+
+#custom-power {
+  opacity: 1;
+  color: @module-fg;
+  padding: 0 0px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+
+/* === Modules === */
+
+/* == Distro Icon == */
+
+#custom-distro {
+  color: @white;
+  background: @lavander;
+  border-radius: 10px 0 0 10px;
+  font-size: 24px;
+  padding: 0 10px 0 15px;
+  text-shadow: 0 0 1.5px rgba(0, 0, 0, 1);
+}
+
+/* == Temperature == */
+
+#custom-cpuinfo {
+  background: @module-bg;
+  color: @blue;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* == Memory == */
+#memory {
+  background: @module-bg;
+  color: @maroon;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#memory.warning {
+  color: @warning;
+}
+#memory.critical {
+  color: @critical;
+}
+
+/* == CPU == */
+
+#custom-cpu {
+  background: @module-bg;
+  border-radius: 0 10px 10px 0;
+  color: @mauve;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* == Media Info == */
+
+#custom-media {
+  font-weight: normal;
+  border-radius: 0 10px 10px 0;
+  background-color: @module-bg;
+  color: @maroon;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#custom-media:hover {
+  color: @red;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+/* == Workspaces == */
+
+#workspaces {
+  background: @module-bg;
+  border-radius: 8px;
+}
+
+
+/* == Time == */
+
+#idle_inhibitor {
+  background: @module-bg;
+  border-radius: 10px 0 0 10px;
+  margin-right: -2px;
+  padding: 0 0 0 7px;
+  color: @red;
+  padding-left: 10px;
+}
+#idle_inhibitor:hover {
+  color: @maroon;
+  text-shadow: none;
+  box-shadow: none;
+}
+#clock.time {
+  background: @module-bg;
+  color: @red;
+  padding: 0 3px 0 0;
+}
+
+/* == Date == */
+
+#clock.date {
+  background: @module-bg;
+  color: @yellow;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#clock.date:hover {
+  color: @peach;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+/* == Output Device == */
+
+#pulseaudio {
+  background: @module-bg;
+  color: @green;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#pulseaudio:hover {
+  color: @teal;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+/* == Tray == */
+
+#custom-wifi {
+  color: @teal;
+  padding-left: 5px;
+  padding-right: 8px;
+  background: @module-bg;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#custom-wifi:hover {
+  color: @sapphire;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+#bluetooth {
+  color: @teal;
+  padding-right: 5px;
+  background: @module-bg;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#bluetooth:hover {
+  color: @sapphire;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+/* == Battery == */
+
+#battery {
+  color: @blue;
+  background: @module-bg;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#battery.warning {
+  color: @warning;
+}
+#battery.critical {
+  color: @critical;
+}
+#battery.charging {
+  color: @blue;
+}
+
+/* == Power Button == */
+
+#custom-power {
+  background: @lavander;
+  border-radius: 0 10px 10px 0;
+  font-size: 18px;
+  padding: 0 10px 0 15px;
+}
+
+#custom-power:hover {
+  color: @main-fg;
+  background: @red;
+}
