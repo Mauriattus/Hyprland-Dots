@@ -1,134 +1,126 @@
-@define-color	rosewater  #6A9589;
-@define-color	flamingo  #6A9589;
-@define-color	pink  #6A9589;
-@define-color	mauve  #98BB6C;
-@define-color	red  #f38ba8;
-@define-color	red-rgb  rgb(243, 139, 168);
-@define-color	maroon  #eba0ac;
-@define-color	maroon-rgb  rgb(235, 160, 172);
-@define-color	peach  #fab387;
-@define-color	peach-rgb  rgb(250, 179, 135);
-@define-color	yellow  #f9e2af;
-@define-color	yellow-rgb  rgb(249, 226, 175);
-@define-color	green  #a6e3a1;
-@define-color	green-rgb  rgb(166, 227, 161);
-@define-color	teal  #94e2d5;
-@define-color	teal-rgb  rgb(148, 226, 213);
-@define-color	sky  #89dceb;
-@define-color	sky-rgb  rgb(137, 220, 235);
-@define-color	sapphire  #74c7ec;
-@define-color	sapphire-rgb  rgb(116, 199, 236);
-@define-color	blue  #89b4fa;
-@define-color	blue-rgb  rgb(137, 180, 250);
-@define-color	lavender  #957FB8;
-@define-color	text  #E6C384;
-@define-color	subtext1  #bac2de;
-@define-color	subtext1-rgb  rgb(186, 194, 222);
-@define-color	subtext0  #a6adc8;
-@define-color	subtext0-rgb  rgb(166, 173, 200);
-@define-color	overlay2  #9399b2;
-@define-color	overlay2-rgb  rgb(147, 153, 178);
-@define-color	overlay1  #7f849c;
-@define-color	overlay1-rgb  rgb(127, 132, 156);
-@define-color	overlay0  #6c7086;
-@define-color	overlay0-rgb  rgb(108, 112, 134);
-@define-color	surface2  #585b70;
-@define-color	surface2-rgb  rgb(88, 91, 112);
-@define-color	surface1  #45475a;
-@define-color	surface1-rgb  rgb(69, 71, 90);
-@define-color	surface0  #313244;
-@define-color	surface0-rgb  rgb(49, 50, 68);
-@define-color	base  #1e1e2e;
-@define-color	base-rgb  rgb(30, 30, 46);
-@define-color	mantle  #181825;
-@define-color	mantle-rgb  rgb(24, 24, 37);
-@define-color	crust  #11111b;
-@define-color	crust-rgb  rgb(17, 17, 27);
+/*
+scheme: "Nord"
+author: "arcticicestudio"
+*/
 
-* {
-  font-family: 'CaskaydiaCove Nerd Font', monospace;
-  font-size: 18px;
-}
+@define-color base10 #2E3440;
+@define-color base00 #3B4252;
+@define-color base02 #434C5E;
+@define-color base03 #4C566A;
+@define-color base04 #D8DEE9;
+@define-color base05 #E5E9F0;
+@define-color base06 #ECEFF4;
+@define-color base07 #8FBCBB;
+@define-color base08 #88C0D0;
+@define-color base09 #81A1C1;
+@define-color base0A #5E81AC;
+@define-color base0B #BF616A;
+@define-color base0C #D08770;
+@define-color base0D #EBCB8B;
+@define-color base0E #A3BE8C;
+@define-color base0F #B48EAD;
 
-/* Window */
-window {
-  margin: 0px;
-  padding: 10px;
-  border: 0px solid @mauve;
-  border-radius: 0px;
-  background-color: rgba(6, 6, 7, 0.3);
-}
 
-/* Inner Box */
-#inner-box {
-  margin: 5px;
-  padding: 10px;
-  border: none;
-  background-color: rgba(6, 6, 7, 0.3);
-}
 
-/* Outer Box */
-#outer-box {
-  margin: 5px;
-  padding: 10px;
-  border: none;
-  background-color: rgba(6, 6, 7, 0.3);
-}
+@define-color base   #24273a;
+@define-color mantle #1e2030;
+@define-color crust  #181926;
 
-/* Scroll */
-#scroll {
-  margin: 0px;
-  padding: 10px;
-  border: none;
-  background-color: rgba(6, 6, 7, 0.3);
-}
+@define-color text     #cad3f5;
+@define-color subtext0 #a5adcb;
+@define-color subtext1 #b8c0e0;
 
-/* Input */
-#input {
-  margin: 5px 20px;
-  padding: 10px;
-  border: none;
-  border-radius: 0.1em;
-  color: @text;
-  background-color: rgba(6, 6, 7, 0.3);
-}
+@define-color surface0 #363a4f;
+@define-color surface1 #494d64;
+@define-color surface2 #5b6078;
 
-#input image {
-    border: none;
-    color: @red;
-}
+@define-color overlay0 #6e738d;
+@define-color overlay1 #8087a2;
+@define-color overlay2 #939ab7;
 
-#input * {
-  outline: 4px solid @red!important;
-}
+@define-color blue      #8aadf4;
+@define-color lavender  #b7bdf8;
+@define-color sapphire  #7dc4e4;
+@define-color sky       #91d7e3;
+@define-color teal      #8bd5ca;
+@define-color green     #a6da95;
+@define-color yellow    #eed49f;
+@define-color peach     #f5a97f;
+@define-color maroon    #ee99a0;
+@define-color red       #ed8796;
+@define-color mauve     #c6a0f6;
+@define-color pink      #f5bde6;
+@define-color flamingo  #f0c6c6;
+@define-color rosewater #f4dbd6;
 
-/* Text */
-#text {
-  margin: 5px;
-  border: none;
-  color: @text;
-}
 
 #entry {
-  background-color: ;
+border-radius: 1px;
+padding: 5px 2px 5px 2px;
+margin: 0px 4px 0px 4px;
 }
 
-#entry arrow {
-  border: none;
-  color: @lavender;
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
-/* Selected Entry */
 #entry:selected {
-  border: 0.11em solid #D27E99; 
-  background-color: rgba(6, 6, 7, 0.3)
-
+color: @text;
+background-color: #4c3e4f;
+padding: 7px;
+}
+ 
+#text:selected {
+color: #08080a;
+}
+ 
+#window {
+animation-name: fadeIn;
+animation-duration: 0.4s;
+background-color: transparent;
+font-family: JetBrains Mono NerdFont;
+font-size:16;
 }
 
-#entry:selected #text {
-  color: @mauve;
+#input {
+border: none;
+background-color: #1f1f28;
+border-radius: 5px;
+margin: 4px 4px 16px 4px;
+padding: 8px;
+color: #c0a36e;
 }
 
-#entry:drop(active) {
-  background-color: @lavender!important;
+#input:focus {
+  border: 1px solid #c0a36e;
 }
+
+#inner-box {
+color: #08080a;
+border-radius: 0px;
+/* margin-right: 180px; */
+}
+
+#outer-box {
+background-color: #08080a;
+border-radius: 1px;
+border: 1px solid #485e6e;
+padding: 25px;
+box-shadow: 0px 0px 3px 1px #08080a;
+margin: 25px;
+}
+
+#scroll {
+background-color: #08080a;
+}
+#text {
+color: #d4a373;
+background-color: rgba(0,0,0,0);
+} 
+
+#img {
+  background-color: transparent;
+  margin-right: 15px;
+}
+

@@ -1,0 +1,42 @@
+/*
+*
+* Kanagawa (Darker, Cooler)
+* Inspired by the traditional Japanese woodblock print
+*
+*/
+
+/* Base colors */
+@define-color base       #1F1F28;  /* Deep navy-black */
+@define-color mantle     #181820;  /* Slightly darker than base */
+@define-color crust      #121218;  /* Darkest layer */
+
+/* Text colors */
+@define-color text       #DCD7BA;  /* Soft off-white (old paper) */
+@define-color subtext0   #B8B5A0;  /* Muted text */
+@define-color subtext1   #C8C5B0;  /* Slightly brighter text */
+
+/* Surface colors */
+@define-color surface0   #2A2A37;  /* Dark slate blue */
+@define-color surface1   #363646;  /* Medium slate */
+@define-color surface2   #434356;  /* Lighter slate */
+
+/* Overlay (highlight) colors */
+@define-color overlay0   #54546D;  /* Soft muted indigo */
+@define-color overlay1   #67677F;  /* Medium indigo */
+@define-color overlay2   #7A7A91;  /* Brighter indigo */
+
+/* Accent colors (inspired by Kanagawa Wave) */
+@define-color blue       #7E9CD8;  /* Soft wave blue */
+@define-color lavender   #A3A7E0;  /* Muted lavender */
+@define-color sapphire   #6CA1C4;  /* Deep sea blue */
+@define-color sky        #7FB4CA;  /* Pale sky blue */
+@define-color teal       #6D9585;  /* Darker seafoam */
+@define-color green      #76946A;  /* Moss green */
+@define-color yellow     #E6C384;  /* Aged gold */
+@define-color peach      #D27E65;  /* Weathered peach */
+@define-color maroon     #C8746A;  /* Soft redwood */
+@define-color red        #D1666A;  /* Deep coral */
+@define-color mauve      #9C86B8;  /* Dusky purple */
+@define-color pink       #D4A3B8;  /* Faded cherry blossom */
+@define-color flamingo   #D4A3A3;  /* Soft rose */
+@define-color rosewater  #D8B8B8;  /* Warm antique white */
